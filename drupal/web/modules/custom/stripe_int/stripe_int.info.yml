@@ -1,0 +1,6 @@
+name: Stripe Integration Module
+description: Use the stripe API via Stripe's PHP Library installed via composer
+package: Custom
+
+type: module
+core: 8.x
