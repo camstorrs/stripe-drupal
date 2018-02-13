@@ -60,13 +60,12 @@ class DonateForm extends FormBase {
   public function validateForm(array &$form, FormStateInterface $form_state) {
 
     if (!empty($form_state->getValue('donation_amount')) && 
-      !empty($form_state->getValue('donation_amount_manual'))) {
+        !empty($form_state->getValue('donation_amount_manual'))) {
 
       $form_state->setError($form['donation_amount'], 'Please enter a single donation amount.');
 
-    } 
-    elseif (!$this->isCurrency($form_state->getValue('donation_amount')) && 
-            !$this->isCurrency($form_state->getValue('donation_amount_manual'))) {
+    }  elseif (!$this->isCurrency($form_state->getValue('donation_amount')) && 
+               !$this->isCurrency($form_state->getValue('donation_amount_manual'))) {
 
       $form_state->setError($form['donation_amount'], 'Please enter a valid currency in USD.');
     }
