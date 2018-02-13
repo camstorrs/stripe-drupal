@@ -1,0 +1,5 @@
+name: Donation Module - Stripe Test
+type: module
+description: Sample donation module using the Stripe API.
+package: Custom
+core: 8.x
