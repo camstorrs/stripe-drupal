@@ -1,7 +1,7 @@
-donate.content:
-  path: '/give'
+donate.donate_form:
+  path: '/donate/form'
   defaults:
-    _controller: '\Drupal\donate\Controller\DonateController::content'
-    _title: 'Please give back!'
+    _title: 'Donation Form'
+    _form: '\Drupal\donate\Form\DonateForm'
   requirements:
     _permission: 'access content'

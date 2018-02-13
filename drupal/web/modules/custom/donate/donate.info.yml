@@ -1,6 +1,5 @@
-name: Donate Module
-description: Donate Form module
-package: Custom
+name: Donation Module - Stripe Test
 type: module
-version: 0.1
+description: Sample donation module using the Stripe API.
+package: Custom
 core: 8.x

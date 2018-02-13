@@ -1,6 +1,0 @@
-donate.admin:
-  title: 'Donation module settings'
-  description: 'Donation form to manage donations via stripe integration'
-  parent: system.admin_config_development
-  route_name: donate.content
-  weight: 100
