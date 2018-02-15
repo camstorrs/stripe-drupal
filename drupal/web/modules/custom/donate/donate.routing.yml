@@ -1,3 +1,19 @@
+donate.request:
+  path: '/donate/request'
+  defaults:
+    _controller: '\Drupal\donate\Controller\DonateController::request'
+  requirements:
+    _permission: 'access content'
+
+
+#donate.donate_form:
+#  path: '/donate/form'
+#  defaults:
+#    _title: 'Donation Form'
+#    _form: '\Drupal\donate\Form\DonateForm'
+#  requirements:
+#    _permission: 'access content'
+
 donate.donate_form:
   path: '/donate/form'
   defaults:

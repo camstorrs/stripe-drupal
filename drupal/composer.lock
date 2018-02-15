@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "444aa3ca54cd3b1ae5fdf34b7dae197e",
+    "content-hash": "c306b002267b938de3c6a5c6e73de9d4",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3269,16 +3269,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v6.0.0",
+            "version": "v6.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "702a3ee91d1ec61c1b058b1a8b1e192849fd8856"
+                "reference": "795eb011e2e02453f8a68be90826578eb6e6dae0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/702a3ee91d1ec61c1b058b1a8b1e192849fd8856",
-                "reference": "702a3ee91d1ec61c1b058b1a8b1e192849fd8856",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/795eb011e2e02453f8a68be90826578eb6e6dae0",
+                "reference": "795eb011e2e02453f8a68be90826578eb6e6dae0",
                 "shasum": ""
             },
             "require": {
@@ -3320,7 +3320,7 @@
                 "payment processing",
                 "stripe"
             ],
-            "time": "2018-02-07T23:32:47+00:00"
+            "time": "2018-02-12T19:47:57+00:00"
         },
         {
             "name": "symfony-cmf/routing",
