@@ -1,0 +1,6 @@
+test_secret_key: 'sk_test_kfm6fTNBSJ6LSyokVz3mCkbY'
+test_public_key: 'pk_test_Z2ti6Fu6qjAesBYDVeOmX8tD'
+live_secret_key: ''
+live_public_key: ''
+log_webhooks: TRUE
+mode: 'test'

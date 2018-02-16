@@ -23,9 +23,8 @@
         "drupal/core": "~8.4",
         "drupal/devel": "1.x-dev",
         "drupal/key": "^1.7",
-        "drupal/webform": "^5.0@RC",
         "drush/drush": "^9.0.0",
-        "stripe/stripe-php": "^6.0",
+        "stripe/stripe-php": "^6.1",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
